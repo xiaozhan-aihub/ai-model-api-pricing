@@ -11,6 +11,8 @@
 
 源地址（实时）：<https://model.dflop.top/data/models.json>、<https://model.dflop.top/data/models.csv>。这里是每天的快照，提交历史就是价格与上下架的变化记录。
 
+Hugging Face 镜像：[xiaozhan-aihub/models](https://huggingface.co/datasets/xiaozhan-aihub/models)（`load_dataset("xiaozhan-aihub/models")`）。
+
 ## 字段（models.json 里的每个模型）
 
 | 字段 | 说明 |
@@ -39,6 +41,7 @@ The catalogue and prices of every model callable on [XiaoZhan AIhub](https://mod
 - `data/models.json`: models, prices (platform credits, ≈CNY, ≈USD), capabilities, context window, release and update dates, plus the licence and source.
 - `data/models.csv`: the same rows as a table (prices in CNY and USD).
 - Live sources: <https://model.dflop.top/data/models.json> and <https://model.dflop.top/data/models.csv>. The commit history of this repository is the record of price and listing changes.
+- On Hugging Face: [xiaozhan-aihub/models](https://huggingface.co/datasets/xiaozhan-aihub/models) (`load_dataset("xiaozhan-aihub/models")`).
 
 `price` is the price charged now (promotions included); `list_price` and `promotion_factor` give the regular price. `updated_at` is when the model's public details (price, name, description, capabilities) last changed.
 
