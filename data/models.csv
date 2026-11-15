@@ -1,0 +1,125 @@
+id,name,vendor,category,context_window,max_output_tokens,input_cny_per_1m_tokens,output_cny_per_1m_tokens,cached_input_cny_per_1m_tokens,input_usd_per_1m_tokens,output_usd_per_1m_tokens,cny_per_image,cny_per_video_second,cny_per_video_task,list_input_cny_per_1m_tokens,list_output_cny_per_1m_tokens,promotion_factor,capabilities,released_at,updated_at,url
+gpt-5.6-luna,GPT-5.6 Luna,openai,text,1000000,128000,0.4044,2.4264,0.04044,0.06,0.36,1.348,,,1.348,8.088,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-07-10,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-luna
+gpt-5.6-sol,GPT-5.6 Sol,openai,text,1000000,128000,10.11,60.66,1.011,1.5,9,1.348,,,33.7,202.2,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-07-10,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-sol
+gpt-5.6-terra,GPT-5.6 Terra,openai,text,1000000,128000,10.11,60.66,1.011,1.5,9,1.348,,,33.7,202.2,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-07-10,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-terra
+gpt-image-2,GPT-Image 2,openai,image,,0,,,,,,0.3,,,,,,Image generation,2026-07-08,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2
+gpt-5.6-luna-bd,GPT-5.6 Luna-bd,openai,text,1050000,128000,1.348,8.088,0.1348,0.2,1.2,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-luna-bd
+gpt-5.6-sol-bd,GPT-5.6 Sol-bd,openai,text,1050000,128000,26.96,134.8,2.696,4,20,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-sol-bd
+gpt-5.6-terra-bd,GPT-5.6 Terra-bd,openai,text,1050000,128000,13.48,80.88,1.348,2,12,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-5.6-terra-bd
+gpt-6,GPT-6,openai,text,1050000,128000,20.22,101.1,2.022,3,15,1.348,,,67.4,337,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-07,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6
+gpt-6-astra,GPT-6 Astra,openai,text,1050000,128000,20.22,101.1,2.022,3,15,1.348,,,67.4,337,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-03,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-astra
+gpt-6-astra-bd,GPT-6 Astra-bd,openai,text,1050000,128000,67.4,337,6.74,10,50,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-astra-bd
+gpt-6-luna,GPT-6 Luna,openai,text,1050000,128000,0.2022,1.011,0.02022,0.03,0.15,1.348,,,0.674,3.37,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-22,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-luna
+gpt-6-luna-bd,GPT-6 Luna-bd,openai,text,1050000,128000,0.674,3.37,0.0674,0.1,0.5,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-luna-bd
+gpt-6-sol,GPT-6 Sol,openai,text,1050000,128000,4.044,20.22,0.4044,0.6,3,1.348,,,13.48,67.4,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-22,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-sol
+gpt-6-sol-bd,GPT-6 Sol-bd,openai,text,1050000,128000,13.48,67.4,1.348,2,10,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6-sol-bd
+gpt-6.1-sol,GPT-6.1 Sol,openai,text,1050000,128000,4.044,20.22,0.2022,0.6,3,1.348,,,13.48,67.4,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-29,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6.1-sol
+gpt-6.1-sol-bd,GPT-6.1 Sol-bd,openai,text,1050000,128000,13.48,67.4,0.674,2,10,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6.1-sol-bd
+gpt-6.1-terra,GPT-6.1 Terra,openai,text,1050000,128000,2.022,10.11,0.1011,0.3,1.5,1.348,,,6.74,33.7,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-6.1-terra
+gpt-image-2-bd,GPT-Image 2-bd,openai,image,,0,,,,,,1.137712,,,,,,Image generation,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2-bd
+gpt-image-2.5-flare,GPT-Image 2.5 Flare,openai,image,,0,,,,,,0.3,,,,,,Image generation,2026-09-08,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.5-flare
+gpt-image-2.5-flare-bd,GPT-Image 2.5 Flare-bd,openai,image,,0,,,,,,1.137712,,,,,,Image generation,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.5-flare-bd
+gpt-image-2.5-sunburst,GPT-Image 2.5 Sunburst,openai,image,,0,,,,,,0.3,,,,,,Image generation,2026-09-08,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.5-sunburst
+gpt-image-2.5-sunburst-bd,GPT-Image 2.5 Sunburst-bd,openai,image,,0,,,,,,1.137712,,,,,,Image generation,2026-10-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.5-sunburst-bd
+gpt-image-2.6-flare,GPT-Image 2.6 Flare,openai,image,,0,,,,,,1.42214,,,,,,Image generation,2026-11-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.6-flare
+gpt-image-2.6-sunburst,GPT-Image 2.6 Sunburst,openai,image,,0,,,,,,1.42214,,,,,,Image generation,2026-11-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/gpt-image-2.6-sunburst
+claude-fable-5,Claude Fable 5,anthropic,text,200000,64000,40.44,202.2,4.044,6,30,,,,67.4,337,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-fable-5
+claude-fable-5-1,Claude Fable 5.1,anthropic,text,1000000,64000,40.44,202.2,1.011,6,30,,,,67.4,337,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-fable-5-1
+claude-haiku-4-5-20251001,Claude Haiku 4.5,anthropic,text,200000,64000,4.044,20.22,0.4044,0.6,3,,,,6.74,33.7,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,2025-10-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-haiku-4-5-20251001
+claude-haiku-5-5,Claude Haiku 5.5,anthropic,text,1000000,128000,0.4044,2.022,0.04044,0.06,0.3,,,,0.674,3.37,0.6,Image input; Tool calling; Thinking mode; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-haiku-5-5
+claude-opus-4-5-20251101,Claude Opus 4.5,anthropic,text,200000,64000,20.22,101.1,2.022,3,15,,,,33.7,168.5,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,2025-11-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-4-5-20251101
+claude-opus-4-6,Claude Opus 4.6,anthropic,text,1000000,128000,20.22,101.1,2.022,3,15,,,,33.7,168.5,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-4-6
+claude-opus-4-7,Claude Opus 4.7,anthropic,text,1000000,128000,20.22,101.1,2.022,3,15,,,,33.7,168.5,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-4-7
+claude-opus-4-8,Claude Opus 4.8,anthropic,text,1000000,128000,20.22,101.1,2.022,3,15,,,,33.7,168.5,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-4-8
+claude-opus-5,Claude Opus 5,anthropic,text,1000000,128000,20.22,101.1,2.022,3,15,,,,33.7,168.5,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-5
+claude-opus-5-5,Claude Opus 5.5,anthropic,text,1000000,128000,16.176,80.88,0.8088,2.4,12,,,,26.96,134.8,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-opus-5-5
+claude-sonnet-4-5-20250929,Claude Sonnet 4.5,anthropic,text,200000,64000,12.132,60.66,1.2132,1.8,9,,,,20.22,101.1,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,2025-09-29,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-sonnet-4-5-20250929
+claude-sonnet-4-6,Claude Sonnet 4.6,anthropic,text,1000000,64000,12.132,60.66,1.2132,1.8,9,,,,20.22,101.1,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-sonnet-4-6
+claude-sonnet-5,Claude Sonnet 5,anthropic,text,1000000,128000,8.088,40.44,0.8088,1.2,6,,,,13.48,67.4,0.6,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-sonnet-5
+claude-sonnet-5-5,Claude Sonnet 5.5,anthropic,text,1000000,128000,1.855387,9.276936,0.093012,0.27528,1.3764,,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode,,2026-11-14T20:23:37Z,https://model.dflop.top/models/claude-sonnet-5-5
+doubao-seedance-2.0,Seedance 2.0,bytedance,video,,0,,,,,,,2.23074,,,,0.9,,2026-01-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0
+doubao-seedance-2.0-fast,Seedance 2.0 Fast,bytedance,video,,0,,,,,,,0.71928,,,,0.9,,2026-01-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0-fast
+doubao-seedance-2.0-fast-lite,Seedance 2.0 Fast Lite,bytedance,video,,0,,,,,,,0.63936,,,,0.8,,2026-08-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0-fast-lite
+doubao-seedance-2.0-lite,Seedance 2.0 Lite,bytedance,video,,0,,,,,,,0.79488,,,,0.8,,2026-08-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0-lite
+doubao-seedance-2.0-mini,Seedance 2.0 Mini,bytedance,video,,0,,,,,,,0.44712,,,,0.9,,2026-06-16,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0-mini
+doubao-seedance-2.0-mini-lite,Seedance 2.0 Mini Lite,bytedance,video,,0,,,,,,,0.39744,,,,0.8,,2026-08-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.0-mini-lite
+doubao-seedance-2.5,Seedance 2.5,bytedance,video,,0,,,,,,,3.36798,,,,0.9,,2026-06-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.5
+doubao-seedance-2.5-lite,Seedance 2.5 Lite,bytedance,video,,0,,,,,,,1.2096,,,,0.8,,2026-08-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedance-2.5-lite
+doubao-seedream-4-0-250828,Seedream 4.0,bytedance,image,,0,,,,,,0.18,,,,,,Image generation,2025-08-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedream-4-0-250828
+doubao-seedream-4-5-251128,Seedream 4.5,bytedance,image,,0,,,,,,0.225,,,,,,Image generation,2025-11-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedream-4-5-251128
+doubao-seedream-5-0-260128,Seedream 5.0,bytedance,image,,0,,,,,,0.198,,,,,,Image generation,2026-01-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedream-5-0-260128
+doubao-seedream-5-0-pro-260628,Seedream 5.0 Pro,bytedance,image,,0,,,,,,0.27,,,,,,Image generation,2026-06-28,2026-11-14T20:23:37Z,https://model.dflop.top/models/doubao-seedream-5-0-pro-260628
+deepseek-v4-flash,DeepSeek V4 Flash,deepseek,text,1000000,128000,1.4,5.6,0.028,0.207715,0.830861,,,,2,8,0.7,Tool calling; Thinking mode; JSON mode; Prefix completion,2026-03-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/deepseek-v4-flash
+deepseek-v4-pro,DeepSeek V4 Pro,deepseek,text,128000,128000,6.3,18.9,0.21,0.934718,2.804154,,,,9,27,0.7,Tool calling; Thinking mode; JSON mode; Prefix completion,2026-03-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/deepseek-v4-pro
+deepseek-v4.1-flash,DeepSeek V4.1 Flash,deepseek,text,1000000,128000,1.4,5.6,0.028,0.207715,0.830861,,,,2,8,0.7,Image input; Tool calling; Thinking mode; JSON mode; Prefix completion; Open weights,2026-09-10,2026-11-14T20:23:37Z,https://model.dflop.top/models/deepseek-v4.1-flash
+gemini-3.1-pro-low,Gemini 3.1 Pro,google,text,2000000,65536,6.74,40.44,0.674,1,6,,,,13.48,80.88,0.5,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-02-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-3.1-pro-low
+gemini-3.1-pro-preview-1020,Gemini 3.1 Pro Preview 1020,google,text,1000000,65536,6.74,40.44,0.674,1,6,,,,13.48,80.88,0.5,Image input; Tool calling; Thinking mode; Web search; JSON mode,2026-02-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-3.1-pro-preview-1020
+gemini-3.8-flash,Gemini 3.8 Flash,google,text,1000000,65536,2.5275,12.6375,0.25275,0.375,1.875,,,,5.055,25.275,0.5,Image input; Tool calling; Thinking mode; JSON mode,2026-09-02,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-3.8-flash
+gemini-3.8-flash-nx,Gemini 3.8 Flash-nx,google,text,1000000,65536,5.055,25.275,0.5055,0.75,3.75,,,,,,,Image input; Tool calling; Thinking mode; JSON mode,2026-09-02,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-3.8-flash-nx
+gemini-4-argon,Gemini 4 Argon,google,text,1000000,65536,6.74,33.7,0.337,1,5,,,,13.48,67.4,0.5,Image input; Tool calling; Thinking mode; JSON mode,2026-10-13,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-4-argon
+gemini-4-argon-nx,Gemini 4 Argon-nx,google,text,1000000,65536,13.48,67.4,0.674,2,10,,,,,,,Image input; Tool calling; Thinking mode; JSON mode,2026-10-13,2026-11-14T20:23:37Z,https://model.dflop.top/models/gemini-4-argon-nx
+nano-banana,Nano Banana,google,image,,0,,,,,,0.3,,,,,,Image generation,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/nano-banana
+nano-banana-2,Nano Banana 2,google,image,,0,,,,,,0.3,,,,,,Image generation,2025-11-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/nano-banana-2
+nano-banana-2.1,Nano Banana 2.1,google,image,,0,,,,,,0.3,,,,,,Image generation,2026-10-06,2026-11-14T20:23:37Z,https://model.dflop.top/models/nano-banana-2.1
+nano-banana-pro,Nano Banana Pro,google,image,,0,,,,,,0.3,,,,,,Image generation,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/nano-banana-pro
+tvod-veo-3.1,Veo 3.1,google,video,,0,,,,,,,0.674,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-veo-3.1
+tvod-veo-3.1-fast,Veo 3.1 Fast,google,video,,0,,,,,,,0.8088,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-veo-3.1-fast
+tvod-veo-3.1-lite,Veo 3.1 Lite,google,video,,0,,,,,,,0.5392,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-veo-3.1-lite
+tvod-kling-image-3.0,可灵图像 3.0,kuaishou,image,,0,,,,,,0.337,,,,,,Image generation,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-image-3.0
+tvod-kling-image-3.0-omni,可灵图像 3.0 Omni,kuaishou,image,,0,,,,,,0.4044,,,,,,Image generation,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-image-3.0-omni
+tvod-kling-video-3.0,可灵 3.0,kuaishou,video,,0,,,,,,,0.5392,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-video-3.0
+tvod-kling-video-3.0-omni,可灵 3.0 Omni,kuaishou,video,,0,,,,,,,0.5392,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-video-3.0-omni
+tvod-kling-video-4.0,可灵 4.0,kuaishou,video,,0,,,,,,,1.14,,,,0.95,,2026-10-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-video-4.0
+tvod-kling-video-4.0-omni,可灵 4.0 Omni,kuaishou,video,,0,,,,,,,1.14,,,,0.95,,2026-10-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-video-4.0-omni
+tvod-kling-video-o1,可灵 O1,kuaishou,video,,0,,,,,,,0.337,,,,,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-kling-video-o1
+MiniMax-M2.7,MiniMax M2.7,minimax,text,200000,196608,2.022,10.11,0.4044,0.3,1.5,,,,,,,Tool calling; JSON mode,2026-03-15,2026-11-14T20:23:37Z,https://model.dflop.top/models/MiniMax-M2.7
+minimax-h3,海螺 H3,minimax,video,,0,,,,,,,0.8,,,,,,2026-09-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3
+minimax-h3-fast-ir-tx,海螺 H3 提速版带IR tx,minimax,video,,0,,,,,,,0.4,,,,,,2026-10-27,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-fast-ir-tx
+minimax-h3-fast-tx,海螺 H3 提速版 tx,minimax,video,,0,,,,,,,0.4,,,,,,2026-10-27,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-fast-tx
+minimax-h3-max,海螺 H3 Max,minimax,video,,0,,,,,,,0.5,,,,,,2026-09-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-max
+minimax-h3-medium-ir-tx,海螺 H3 满血版带IR tx,minimax,video,,0,,,,,,,0.5,,,,,,2026-10-27,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-medium-ir-tx
+minimax-h3-medium-tx,海螺 H3 满血版 tx,minimax,video,,0,,,,,,,0.5,,,,,,2026-10-27,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-medium-tx
+minimax-h3-tx,海螺 H3 tx,minimax,video,,0,,,,,,,0.5,,,,,,2026-10-14,2026-11-14T20:23:37Z,https://model.dflop.top/models/minimax-h3-tx
+kimi-k2.5,Kimi K2.5,moonshot,text,256000,256000,4.044,16.85,0.674,0.6,2.5,,,,,,,Tool calling; Thinking mode; JSON mode; Open weights,2025-11-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/kimi-k2.5
+kimi-k2.6,Kimi K2.6,moonshot,text,256000,256000,4.044,16.85,0.674,0.6,2.5,,,,,,,Tool calling; Thinking mode; JSON mode; Open weights,2026-01-15,2026-11-14T20:23:37Z,https://model.dflop.top/models/kimi-k2.6
+kimi-k2.7-code,Kimi K2.7 Code,moonshot,text,256000,256000,4.044,16.85,0.674,0.6,2.5,,,,,,,Tool calling; Thinking mode; JSON mode; Open weights,2026-06-15,2026-11-14T20:23:37Z,https://model.dflop.top/models/kimi-k2.7-code
+kimi-k3,Kimi K3,moonshot,text,256000,256000,20,100,2,2.967359,14.836795,,,,,,,Tool calling; Thinking mode; JSON mode; Open weights,2026-07-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/kimi-k3
+kimi-k3-1013,Kimi K3 1013,moonshot,text,256000,256000,15,75,1.5,2.225519,11.127596,,,,20,100,0.75,Tool calling; Thinking mode; JSON mode; Open weights,2026-10-14,2026-11-14T20:23:37Z,https://model.dflop.top/models/kimi-k3-1013
+clip-compose,智能剪辑,other,video,,0,,,,,,,,1.5,,,,,2026-09-25,2026-11-14T20:23:37Z,https://model.dflop.top/models/clip-compose
+codex-auto-review,Codex Auto Review,openai,text,272000,128000,0.4044,2.4264,0.04044,0.06,0.36,1.348,,,1.348,8.088,0.3,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-09-09,2026-11-14T20:23:37Z,https://model.dflop.top/models/codex-auto-review
+dh-avatar,数字人视频,other,video,,0,,,,,,,0.06,,,,,,2026-07-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/dh-avatar
+dh-avatar-create,创建数字人形象,other,video,,0,,,,,,,,,,,,,2026-07-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/dh-avatar-create
+seedance2.0-yd,Seedance 2.0 YD,bytedance,video,,0,,,,,,,1.98288,,,,0.8,,2026-10-10,2026-11-14T20:23:37Z,https://model.dflop.top/models/seedance2.0-yd
+voice-clone-pro,声音克隆 · 创建音色,other,audio,,0,,,,,,,,,,,,,2026-07-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/voice-clone-pro
+voice-tts-pro,语音合成,other,audio,,0,,,,,,,,,,,,,2026-07-24,2026-11-14T20:23:37Z,https://model.dflop.top/models/voice-tts-pro
+xiaozhanAI,xiaozhanAI,other,text,1050000,128000,2.022,10.11,0.2022,0.3,1.5,2.84428,,,,,,Image input; Tool calling; Thinking mode; Web search; JSON mode; Image generation,2026-10-11,2026-11-14T20:23:37Z,https://model.dflop.top/models/xiaozhanAI
+xiaozhanimage,xiaozhanimage,other,image,,0,,,,,,0.5,,,,,,Image generation,2026-10-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/xiaozhanimage
+happyhorse-1.1-i2v,快乐马 1.1 图生视频,alibaba,video,,0,,,,,,,1.2,,,,,,2026-08-25,2026-11-14T20:23:37Z,https://model.dflop.top/models/happyhorse-1.1-i2v
+happyhorse-1.1-r2v,快乐马 1.1 全能参考,alibaba,video,,0,,,,,,,1.2,,,,,,2026-08-25,2026-11-14T20:23:37Z,https://model.dflop.top/models/happyhorse-1.1-r2v
+happyhorse-1.1-t2v,快乐马 1.1 文生视频,alibaba,video,,0,,,,,,,1.2,,,,,,2026-08-25,2026-11-14T20:23:37Z,https://model.dflop.top/models/happyhorse-1.1-t2v
+qwen-image-3.0,Qwen Image 3.0,alibaba,image,,0,,,,,,0.18,,,,,,Image generation,2026-09-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/qwen-image-3.0
+qwen-image-3.0-pro,Qwen Image 3.0 Pro,alibaba,image,,0,,,,,,0.25,,,,,,Image generation,2026-09-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/qwen-image-3.0-pro
+qwen3.8-max-cjx,Qwen3.8-Max-cjx,alibaba,text,1000000,131072,8.4,25.2,1.05,1.246291,3.738872,,,,12,36,0.7,Image input; Tool calling; Thinking mode; JSON mode,2026-08-03,2026-11-14T20:23:37Z,https://model.dflop.top/models/qwen3.8-max-cjx
+qwen3.8-omni-flash,Qwen3.8-Omni-Flash,alibaba,text,1000000,32768,0.8,2.7,0.1,0.118694,0.400593,,,,,,,Image input; Tool calling; Thinking mode; JSON mode; Prefix completion,2026-09-09,2026-11-14T20:23:37Z,https://model.dflop.top/models/qwen3.8-omni-flash
+wan3.0-video,万相 3.0 视频生成,alibaba,video,,0,,,,,,,1.08,,,,0.9,,2026-09-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/wan3.0-video
+wan3.0-video-prime,万相 3.0 视频生成 Prime,alibaba,video,,0,,,,,,,1.62,,,,0.9,,2026-09-04,2026-11-14T20:23:37Z,https://model.dflop.top/models/wan3.0-video-prime
+tvod-vidu-video-q3,Vidu Q3,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-vidu-video-q3
+tvod-vidu-video-q3-ad,Vidu Q3 广告版,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-vidu-video-q3-ad
+tvod-vidu-video-q3-drama,Vidu Q3 短剧版,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-vidu-video-q3-drama
+tvod-vidu-video-q3-mix,Vidu Q3 Mix,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,,https://model.dflop.top/models/tvod-vidu-video-q3-mix
+tvod-vidu-video-q3-pro,Vidu Q3 Pro,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-vidu-video-q3-pro
+tvod-vidu-video-q3-turbo,Vidu Q3 Turbo,shengshu,video,,0,,,,,,,0.37744,,,,0.8,,2026-06-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/tvod-vidu-video-q3-turbo
+suno-v6,Suno V6 (最新),suno,audio,,0,,,,,,,,,,,,,2026-11-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/suno-v6
+suno-v6-mini,Suno V6 Mini,suno,audio,,0,,,,,,,,,,,,,2026-11-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/suno-v6-mini
+suno-v6-wild,Suno V6 Wild,suno,audio,,0,,,,,,,,,,,,,2026-11-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/suno-v6-wild
+grok-4.5,Grok 4.5,xai,text,500000,131072,4.044,12.132,0.6066,0.6,1.8,,,,13.48,40.44,0.3,Image input; Video input; Tool calling; Thinking mode; JSON mode,2026-07-09,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-4.5
+grok-4.6,Grok 4.6,xai,text,500000,131072,4.044,12.132,1.011,0.6,1.8,,,,13.48,40.44,0.3,Image input; Video input; Tool calling; Thinking mode; JSON mode,2026-08-12,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-4.6
+grok-4.7,Grok 4.7,xai,text,500000,131072,4.044,12.132,1.011,0.6,1.8,,,,13.48,40.44,0.3,Image input; Video input; Tool calling; Thinking mode; JSON mode,2026-09-21,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-4.7
+grok-imagine-image,Grok Imagine (Image),xai,image,,0,,,,,,0.3,,,,,,Image generation,2025-01-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-imagine-image
+grok-imagine-image-quality,Grok Imagine (Image · Quality),xai,image,,0,,,,,,0.3,,,,,,Image generation,2025-01-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-imagine-image-quality
+grok-imagine-video,Grok Imagine Video,xai,video,,0,,,,,,,0.1,,,,,,2025-01-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-imagine-video
+grok-imagine-video-1.5-preview,Grok Imagine Video 1.5,xai,video,,0,,,,,,,0.1,,,,,,2025-01-01,2026-11-14T20:23:37Z,https://model.dflop.top/models/grok-imagine-video-1.5-preview
+glm-5.3,GLM-5.3,zhipu,text,1000000,32768,5.6,19.6,1.4,0.830861,2.908012,,,,8,28,0.7,Tool calling; Thinking mode; JSON mode; Open weights,2026-08-23,2026-11-14T20:23:37Z,https://model.dflop.top/models/glm-5.3
+glm-5.3-1022,GLM-5.3-1022,zhipu,text,1000000,131072,8,28,2,1.186944,4.154303,,,,,,,Tool calling; Thinking mode; JSON mode; Open weights,2026-08-23,2026-11-14T20:23:37Z,https://model.dflop.top/models/glm-5.3-1022
+glm-5.3-flash,GLM-5.3-Flash,zhipu,text,1000000,131072,0.56,1.96,0.161,0.083086,0.290801,,,,0.8,2.8,0.7,Image input; Tool calling; Thinking mode; JSON mode; Open weights,2026-08-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/glm-5.3-flash
+glm-5.3-flash-1022,GLM-5.3-Flash-1022,zhipu,text,1000000,131072,0.8,2.8,0.23,0.118694,0.41543,,,,,,,Image input; Tool calling; Thinking mode; JSON mode; Open weights,2026-08-26,2026-11-14T20:23:37Z,https://model.dflop.top/models/glm-5.3-flash-1022

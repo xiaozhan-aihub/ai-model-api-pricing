@@ -1,0 +1,4463 @@
+{
+  "name": "小战AIhub 大模型 API 目录与价格 / AI model API catalogue and prices",
+  "description": "小战AIhub（https://model.dflop.top）上可调用的全部模型：调用 ID、厂商、类别、上下文、能力与价格（实际扣费的现价，含限时折扣，另附原价）。 Every model callable on this platform with its call id, vendor, category, context window, capabilities and prices (the price charged now, promotions included, plus the list price).",
+  "publisher": {
+    "name": "小战AIhub",
+    "url": "https://model.dflop.top"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "attribution": "数据来自 小战AIhub（https://model.dflop.top/models），按 CC BY 4.0 授权，可自由使用（包括用于 AI 训练），请注明来源并附链接。 / Data from 小战AIhub (https://model.dflop.top/models), licensed CC BY 4.0: free to use, including for AI training; please credit the source with a link.",
+  "source": "https://model.dflop.top/models",
+  "updated_at": "2026-11-14T20:23:37Z",
+  "currency": {
+    "unit": "credits",
+    "credits_per_cny": 60,
+    "credits_per_usd": 404.4,
+    "note": "The platform bills in credits; cny / usd are conversions at the platform's published rates."
+  },
+  "count": 124,
+  "models": [
+    {
+      "id": "gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-07-10",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-luna",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        },
+        "output_per_1m_tokens": {
+          "credits": 145.584,
+          "cny": 2.4264,
+          "usd": 0.36
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 2.4264,
+          "cny": 0.04044,
+          "usd": 0.006
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        },
+        "output_per_1m_tokens": {
+          "credits": 485.28,
+          "cny": 8.088,
+          "usd": 1.2
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 8.088,
+          "cny": 0.1348,
+          "usd": 0.02
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-07-10",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-sol",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 606.6,
+          "cny": 10.11,
+          "usd": 1.5
+        },
+        "output_per_1m_tokens": {
+          "credits": 3639.6,
+          "cny": 60.66,
+          "usd": 9
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 12132,
+          "cny": 202.2,
+          "usd": 30
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-07-10",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-terra",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 606.6,
+          "cny": 10.11,
+          "usd": 1.5
+        },
+        "output_per_1m_tokens": {
+          "credits": 3639.6,
+          "cny": 60.66,
+          "usd": 9
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 12132,
+          "cny": 202.2,
+          "usd": 30
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "GPT-Image 2",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-07-08",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-5.6-luna-bd",
+      "name": "GPT-5.6 Luna-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-luna-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        },
+        "output_per_1m_tokens": {
+          "credits": 485.28,
+          "cny": 8.088,
+          "usd": 1.2
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 8.088,
+          "cny": 0.1348,
+          "usd": 0.02
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-5.6-sol-bd",
+      "name": "GPT-5.6 Sol-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-sol-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1617.6,
+          "cny": 26.96,
+          "usd": 4
+        },
+        "output_per_1m_tokens": {
+          "credits": 8088,
+          "cny": 134.8,
+          "usd": 20
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 161.76,
+          "cny": 2.696,
+          "usd": 0.4
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-5.6-terra-bd",
+      "name": "GPT-5.6 Terra-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-5.6-terra-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4852.8,
+          "cny": 80.88,
+          "usd": 12
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-6",
+      "name": "GPT-6",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-07",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "output_per_1m_tokens": {
+          "credits": 20220,
+          "cny": 337,
+          "usd": 50
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-03",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-astra",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "output_per_1m_tokens": {
+          "credits": 20220,
+          "cny": 337,
+          "usd": 50
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-6-astra-bd",
+      "name": "GPT-6 Astra-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-astra-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "output_per_1m_tokens": {
+          "credits": 20220,
+          "cny": 337,
+          "usd": 50
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-22",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-luna",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 12.132,
+          "cny": 0.2022,
+          "usd": 0.03
+        },
+        "output_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 1.2132,
+          "cny": 0.02022,
+          "usd": 0.003
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        },
+        "output_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 4.044,
+          "cny": 0.0674,
+          "usd": 0.01
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-6-luna-bd",
+      "name": "GPT-6 Luna-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-luna-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        },
+        "output_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 4.044,
+          "cny": 0.0674,
+          "usd": 0.01
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-22",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-sol",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-6-sol-bd",
+      "name": "GPT-6 Sol-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6-sol-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-29",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6.1-sol",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 12.132,
+          "cny": 0.2022,
+          "usd": 0.03
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-6.1-sol-bd",
+      "name": "GPT-6.1 Sol-bd",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6.1-sol-bd",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-6.1-terra",
+      "name": "GPT-6.1 Terra",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-6.1-terra",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "output_per_1m_tokens": {
+          "credits": 606.6,
+          "cny": 10.11,
+          "usd": 1.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 6.066,
+          "cny": 0.1011,
+          "usd": 0.015
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "output_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 20.22,
+          "cny": 0.337,
+          "usd": 0.05
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "gpt-image-2-bd",
+      "name": "GPT-Image 2-bd",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2-bd",
+      "price": {
+        "per_image": {
+          "credits": 68.26272,
+          "cny": 1.137712,
+          "usd": 0.1688
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.5-flare",
+      "name": "GPT-Image 2.5 Flare",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-09-08",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.5-flare",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.5-flare-bd",
+      "name": "GPT-Image 2.5 Flare-bd",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.5-flare-bd",
+      "price": {
+        "per_image": {
+          "credits": 68.26272,
+          "cny": 1.137712,
+          "usd": 0.1688
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.5-sunburst",
+      "name": "GPT-Image 2.5 Sunburst",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-09-08",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.5-sunburst",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.5-sunburst-bd",
+      "name": "GPT-Image 2.5 Sunburst-bd",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-10-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.5-sunburst-bd",
+      "price": {
+        "per_image": {
+          "credits": 68.26272,
+          "cny": 1.137712,
+          "usd": 0.1688
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.6-flare",
+      "name": "GPT-Image 2.6 Flare",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-11-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.6-flare",
+      "price": {
+        "per_image": {
+          "credits": 85.3284,
+          "cny": 1.42214,
+          "usd": 0.211
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gpt-image-2.6-sunburst",
+      "name": "GPT-Image 2.6 Sunburst",
+      "vendor": "openai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-11-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gpt-image-2.6-sunburst",
+      "price": {
+        "per_image": {
+          "credits": 85.3284,
+          "cny": 1.42214,
+          "usd": 0.211
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-fable-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "output_per_1m_tokens": {
+          "credits": 12132,
+          "cny": 202.2,
+          "usd": 30
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "output_per_1m_tokens": {
+          "credits": 20220,
+          "cny": 337,
+          "usd": 50
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-fable-5-1",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "output_per_1m_tokens": {
+          "credits": 12132,
+          "cny": 202.2,
+          "usd": 30
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "output_per_1m_tokens": {
+          "credits": 20220,
+          "cny": 337,
+          "usd": 50
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 101.1,
+          "cny": 1.685,
+          "usd": 0.25
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "name": "Claude Haiku 4.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2025-10-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-haiku-4-5-20251001",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "output_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-haiku-5-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        },
+        "output_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 2.4264,
+          "cny": 0.04044,
+          "usd": 0.006
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        },
+        "output_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 4.044,
+          "cny": 0.0674,
+          "usd": 0.01
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-4-5-20251101",
+      "name": "Claude Opus 4.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2025-11-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-4-5-20251101",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 10110,
+          "cny": 168.5,
+          "usd": 25
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-4-6",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 10110,
+          "cny": 168.5,
+          "usd": 25
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-4-7",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 10110,
+          "cny": 168.5,
+          "usd": 25
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-4-8",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 10110,
+          "cny": 168.5,
+          "usd": 25
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "output_per_1m_tokens": {
+          "credits": 10110,
+          "cny": 168.5,
+          "usd": 25
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-opus-5-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 970.56,
+          "cny": 16.176,
+          "usd": 2.4
+        },
+        "output_per_1m_tokens": {
+          "credits": 4852.8,
+          "cny": 80.88,
+          "usd": 12
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 48.528,
+          "cny": 0.8088,
+          "usd": 0.12
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 1617.6,
+          "cny": 26.96,
+          "usd": 4
+        },
+        "output_per_1m_tokens": {
+          "credits": 8088,
+          "cny": 134.8,
+          "usd": 20
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "name": "Claude Sonnet 4.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2025-09-29",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-sonnet-4-5-20250929",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 727.92,
+          "cny": 12.132,
+          "usd": 1.8
+        },
+        "output_per_1m_tokens": {
+          "credits": 3639.6,
+          "cny": 60.66,
+          "usd": 9
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 72.792,
+          "cny": 1.2132,
+          "usd": 0.18
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 64000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-sonnet-4-6",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 727.92,
+          "cny": 12.132,
+          "usd": 1.8
+        },
+        "output_per_1m_tokens": {
+          "credits": 3639.6,
+          "cny": 60.66,
+          "usd": 9
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 72.792,
+          "cny": 1.2132,
+          "usd": 0.18
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 1213.2,
+          "cny": 20.22,
+          "usd": 3
+        },
+        "output_per_1m_tokens": {
+          "credits": 6066,
+          "cny": 101.1,
+          "usd": 15
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-sonnet-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 485.28,
+          "cny": 8.088,
+          "usd": 1.2
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 48.528,
+          "cny": 0.8088,
+          "usd": 0.12
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.6
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "vendor": "anthropic",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": null,
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/claude-sonnet-5-5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 111.323232,
+          "cny": 1.855387,
+          "usd": 0.27528
+        },
+        "output_per_1m_tokens": {
+          "credits": 556.61616,
+          "cny": 9.276936,
+          "usd": 1.3764
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 5.58072,
+          "cny": 0.093012,
+          "usd": 0.0138
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "doubao-seedance-2.0",
+      "name": "Seedance 2.0",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-01-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0",
+      "price": {
+        "per_video_second": {
+          "credits": 133.8444,
+          "cny": 2.23074,
+          "usd": 0.33097
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 148.716,
+          "cny": 2.4786,
+          "usd": 0.367745
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "doubao-seedance-2.0-fast",
+      "name": "Seedance 2.0 Fast",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-01-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0-fast",
+      "price": {
+        "per_video_second": {
+          "credits": 43.1568,
+          "cny": 0.71928,
+          "usd": 0.106718
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 47.952,
+          "cny": 0.7992,
+          "usd": 0.118576
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "doubao-seedance-2.0-fast-lite",
+      "name": "Seedance 2.0 Fast Lite",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0-fast-lite",
+      "price": {
+        "per_video_second": {
+          "credits": 38.3616,
+          "cny": 0.63936,
+          "usd": 0.094861
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 47.952,
+          "cny": 0.7992,
+          "usd": 0.118576
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "doubao-seedance-2.0-lite",
+      "name": "Seedance 2.0 Lite",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0-lite",
+      "price": {
+        "per_video_second": {
+          "credits": 47.6928,
+          "cny": 0.79488,
+          "usd": 0.117935
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 59.616,
+          "cny": 0.9936,
+          "usd": 0.147418
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "doubao-seedance-2.0-mini",
+      "name": "Seedance 2.0 Mini",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-16",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0-mini",
+      "price": {
+        "per_video_second": {
+          "credits": 26.8272,
+          "cny": 0.44712,
+          "usd": 0.066338
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 29.808,
+          "cny": 0.4968,
+          "usd": 0.073709
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "doubao-seedance-2.0-mini-lite",
+      "name": "Seedance 2.0 Mini Lite",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.0-mini-lite",
+      "price": {
+        "per_video_second": {
+          "credits": 23.8464,
+          "cny": 0.39744,
+          "usd": 0.058967
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 29.808,
+          "cny": 0.4968,
+          "usd": 0.073709
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "doubao-seedance-2.5",
+      "name": "Seedance 2.5",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.5",
+      "price": {
+        "per_video_second": {
+          "credits": 202.0788,
+          "cny": 3.36798,
+          "usd": 0.4997
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 224.532,
+          "cny": 3.7422,
+          "usd": 0.555223
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "doubao-seedance-2.5-lite",
+      "name": "Seedance 2.5 Lite",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedance-2.5-lite",
+      "price": {
+        "per_video_second": {
+          "credits": 72.576,
+          "cny": 1.2096,
+          "usd": 0.179466
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 90.72,
+          "cny": 1.512,
+          "usd": 0.224332
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "doubao-seedream-4-0-250828",
+      "name": "Seedream 4.0",
+      "vendor": "bytedance",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2025-08-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedream-4-0-250828",
+      "price": {
+        "per_image": {
+          "credits": 10.8,
+          "cny": 0.18,
+          "usd": 0.026706
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "doubao-seedream-4-5-251128",
+      "name": "Seedream 4.5",
+      "vendor": "bytedance",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2025-11-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedream-4-5-251128",
+      "price": {
+        "per_image": {
+          "credits": 13.5,
+          "cny": 0.225,
+          "usd": 0.033383
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "doubao-seedream-5-0-260128",
+      "name": "Seedream 5.0",
+      "vendor": "bytedance",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-01-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedream-5-0-260128",
+      "price": {
+        "per_image": {
+          "credits": 11.88,
+          "cny": 0.198,
+          "usd": 0.029377
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "doubao-seedream-5-0-pro-260628",
+      "name": "Seedream 5.0 Pro",
+      "vendor": "bytedance",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-06-28",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/doubao-seedream-5-0-pro-260628",
+      "price": {
+        "per_image": {
+          "credits": 16.2,
+          "cny": 0.27,
+          "usd": 0.040059
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vendor": "deepseek",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Prefix completion"
+      ],
+      "released_at": "2026-03-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/deepseek-v4-flash",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 84,
+          "cny": 1.4,
+          "usd": 0.207715
+        },
+        "output_per_1m_tokens": {
+          "credits": 336,
+          "cny": 5.6,
+          "usd": 0.830861
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 1.68,
+          "cny": 0.028,
+          "usd": 0.004154
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        },
+        "output_per_1m_tokens": {
+          "credits": 480,
+          "cny": 8,
+          "usd": 1.186944
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 2.4,
+          "cny": 0.04,
+          "usd": 0.005935
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vendor": "deepseek",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 128000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Prefix completion"
+      ],
+      "released_at": "2026-03-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/deepseek-v4-pro",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 378,
+          "cny": 6.3,
+          "usd": 0.934718
+        },
+        "output_per_1m_tokens": {
+          "credits": 1134,
+          "cny": 18.9,
+          "usd": 2.804154
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 12.6,
+          "cny": 0.21,
+          "usd": 0.031157
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 540,
+          "cny": 9,
+          "usd": 1.335312
+        },
+        "output_per_1m_tokens": {
+          "credits": 1620,
+          "cny": 27,
+          "usd": 4.005935
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "vendor": "deepseek",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Prefix completion",
+        "Open weights"
+      ],
+      "released_at": "2026-09-10",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/deepseek-v4.1-flash",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 84,
+          "cny": 1.4,
+          "usd": 0.207715
+        },
+        "output_per_1m_tokens": {
+          "credits": 336,
+          "cny": 5.6,
+          "usd": 0.830861
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 1.68,
+          "cny": 0.028,
+          "usd": 0.004154
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        },
+        "output_per_1m_tokens": {
+          "credits": 480,
+          "cny": 8,
+          "usd": 1.186944
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 2.4,
+          "cny": 0.04,
+          "usd": 0.005935
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "gemini-3.1-pro-low",
+      "name": "Gemini 3.1 Pro",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 2000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-02-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-3.1-pro-low",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4852.8,
+          "cny": 80.88,
+          "usd": 12
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.5
+    },
+    {
+      "id": "gemini-3.1-pro-preview-1020",
+      "name": "Gemini 3.1 Pro Preview 1020",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode"
+      ],
+      "released_at": "2026-02-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-3.1-pro-preview-1020",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4852.8,
+          "cny": 80.88,
+          "usd": 12
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.5
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-09-02",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-3.8-flash",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 151.65,
+          "cny": 2.5275,
+          "usd": 0.375
+        },
+        "output_per_1m_tokens": {
+          "credits": 758.25,
+          "cny": 12.6375,
+          "usd": 1.875
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 15.165,
+          "cny": 0.25275,
+          "usd": 0.0375
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 303.3,
+          "cny": 5.055,
+          "usd": 0.75
+        },
+        "output_per_1m_tokens": {
+          "credits": 1516.5,
+          "cny": 25.275,
+          "usd": 3.75
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 30.33,
+          "cny": 0.5055,
+          "usd": 0.075
+        }
+      },
+      "promotion_factor": 0.5
+    },
+    {
+      "id": "gemini-3.8-flash-nx",
+      "name": "Gemini 3.8 Flash-nx",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-09-02",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-3.8-flash-nx",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 303.3,
+          "cny": 5.055,
+          "usd": 0.75
+        },
+        "output_per_1m_tokens": {
+          "credits": 1516.5,
+          "cny": 25.275,
+          "usd": 3.75
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 30.33,
+          "cny": 0.5055,
+          "usd": 0.075
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-13",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-4-argon",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 404.4,
+          "cny": 6.74,
+          "usd": 1
+        },
+        "output_per_1m_tokens": {
+          "credits": 2022,
+          "cny": 33.7,
+          "usd": 5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 20.22,
+          "cny": 0.337,
+          "usd": 0.05
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "promotion_factor": 0.5
+    },
+    {
+      "id": "gemini-4-argon-nx",
+      "name": "Gemini 4 Argon-nx",
+      "vendor": "google",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 65536,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-10-13",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/gemini-4-argon-nx",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 4044,
+          "cny": 67.4,
+          "usd": 10
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "vendor": "google",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/nano-banana",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "nano-banana-2",
+      "name": "Nano Banana 2",
+      "vendor": "google",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2025-11-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/nano-banana-2",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "nano-banana-2.1",
+      "name": "Nano Banana 2.1",
+      "vendor": "google",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-10-06",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/nano-banana-2.1",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "vendor": "google",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/nano-banana-pro",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-veo-3.1",
+      "name": "Veo 3.1",
+      "vendor": "google",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-veo-3.1",
+      "price": {
+        "per_video_second": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-veo-3.1-fast",
+      "name": "Veo 3.1 Fast",
+      "vendor": "google",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-veo-3.1-fast",
+      "price": {
+        "per_video_second": {
+          "credits": 48.528,
+          "cny": 0.8088,
+          "usd": 0.12
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-veo-3.1-lite",
+      "name": "Veo 3.1 Lite",
+      "vendor": "google",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-veo-3.1-lite",
+      "price": {
+        "per_video_second": {
+          "credits": 32.352,
+          "cny": 0.5392,
+          "usd": 0.08
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-kling-image-3.0",
+      "name": "可灵图像 3.0",
+      "vendor": "kuaishou",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-image-3.0",
+      "price": {
+        "per_image": {
+          "credits": 20.22,
+          "cny": 0.337,
+          "usd": 0.05
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-kling-image-3.0-omni",
+      "name": "可灵图像 3.0 Omni",
+      "vendor": "kuaishou",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-image-3.0-omni",
+      "price": {
+        "per_image": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-kling-video-3.0",
+      "name": "可灵 3.0",
+      "vendor": "kuaishou",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-video-3.0",
+      "price": {
+        "per_video_second": {
+          "credits": 32.352,
+          "cny": 0.5392,
+          "usd": 0.08
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-kling-video-3.0-omni",
+      "name": "可灵 3.0 Omni",
+      "vendor": "kuaishou",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-video-3.0-omni",
+      "price": {
+        "per_video_second": {
+          "credits": 32.352,
+          "cny": 0.5392,
+          "usd": 0.08
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "tvod-kling-video-4.0",
+      "name": "可灵 4.0",
+      "vendor": "kuaishou",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-video-4.0",
+      "price": {
+        "per_video_second": {
+          "credits": 68.4,
+          "cny": 1.14,
+          "usd": 0.169139
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "promotion_factor": 0.95
+    },
+    {
+      "id": "tvod-kling-video-4.0-omni",
+      "name": "可灵 4.0 Omni",
+      "vendor": "kuaishou",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-video-4.0-omni",
+      "price": {
+        "per_video_second": {
+          "credits": 68.4,
+          "cny": 1.14,
+          "usd": 0.169139
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "promotion_factor": 0.95
+    },
+    {
+      "id": "tvod-kling-video-o1",
+      "name": "可灵 O1",
+      "vendor": "kuaishou",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-kling-video-o1",
+      "price": {
+        "per_video_second": {
+          "credits": 20.22,
+          "cny": 0.337,
+          "usd": 0.05
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "MiniMax-M2.7",
+      "name": "MiniMax M2.7",
+      "vendor": "minimax",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 200000,
+      "max_output_tokens": 196608,
+      "capabilities": [
+        "Tool calling",
+        "JSON mode"
+      ],
+      "released_at": "2026-03-15",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/MiniMax-M2.7",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "output_per_1m_tokens": {
+          "credits": 606.6,
+          "cny": 10.11,
+          "usd": 1.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3",
+      "name": "海螺 H3",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-09-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3",
+      "price": {
+        "per_video_second": {
+          "credits": 48,
+          "cny": 0.8,
+          "usd": 0.118694
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-fast-ir-tx",
+      "name": "海螺 H3 提速版带IR tx",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-27",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-fast-ir-tx",
+      "price": {
+        "per_video_second": {
+          "credits": 24,
+          "cny": 0.4,
+          "usd": 0.059347
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-fast-tx",
+      "name": "海螺 H3 提速版 tx",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-27",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-fast-tx",
+      "price": {
+        "per_video_second": {
+          "credits": 24,
+          "cny": 0.4,
+          "usd": 0.059347
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-max",
+      "name": "海螺 H3 Max",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-09-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-max",
+      "price": {
+        "per_video_second": {
+          "credits": 30,
+          "cny": 0.5,
+          "usd": 0.074184
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-medium-ir-tx",
+      "name": "海螺 H3 满血版带IR tx",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-27",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-medium-ir-tx",
+      "price": {
+        "per_video_second": {
+          "credits": 30,
+          "cny": 0.5,
+          "usd": 0.074184
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-medium-tx",
+      "name": "海螺 H3 满血版 tx",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-27",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-medium-tx",
+      "price": {
+        "per_video_second": {
+          "credits": 30,
+          "cny": 0.5,
+          "usd": 0.074184
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "minimax-h3-tx",
+      "name": "海螺 H3 tx",
+      "vendor": "minimax",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-14",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/minimax-h3-tx",
+      "price": {
+        "per_video_second": {
+          "credits": 30,
+          "cny": 0.5,
+          "usd": 0.074184
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "kimi-k2.5",
+      "name": "Kimi K2.5",
+      "vendor": "moonshot",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 256000,
+      "max_output_tokens": 256000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2025-11-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/kimi-k2.5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1011,
+          "cny": 16.85,
+          "usd": 2.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "vendor": "moonshot",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 256000,
+      "max_output_tokens": 256000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-01-15",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/kimi-k2.6",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1011,
+          "cny": 16.85,
+          "usd": 2.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "vendor": "moonshot",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 256000,
+      "max_output_tokens": 256000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-06-15",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/kimi-k2.7-code",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 1011,
+          "cny": 16.85,
+          "usd": 2.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 40.44,
+          "cny": 0.674,
+          "usd": 0.1
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "vendor": "moonshot",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 256000,
+      "max_output_tokens": 256000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-07-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/kimi-k3",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 1200,
+          "cny": 20,
+          "usd": 2.967359
+        },
+        "output_per_1m_tokens": {
+          "credits": 6000,
+          "cny": 100,
+          "usd": 14.836795
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "kimi-k3-1013",
+      "name": "Kimi K3 1013",
+      "vendor": "moonshot",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 256000,
+      "max_output_tokens": 256000,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-10-14",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/kimi-k3-1013",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 900,
+          "cny": 15,
+          "usd": 2.225519
+        },
+        "output_per_1m_tokens": {
+          "credits": 4500,
+          "cny": 75,
+          "usd": 11.127596
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 90,
+          "cny": 1.5,
+          "usd": 0.222552
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 1200,
+          "cny": 20,
+          "usd": 2.967359
+        },
+        "output_per_1m_tokens": {
+          "credits": 6000,
+          "cny": 100,
+          "usd": 14.836795
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        }
+      },
+      "promotion_factor": 0.75
+    },
+    {
+      "id": "clip-compose",
+      "name": "智能剪辑",
+      "vendor": "other",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-09-25",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/clip-compose",
+      "price": {
+        "per_video_task": {
+          "credits": 90,
+          "cny": 1.5,
+          "usd": 0.222552
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "codex-auto-review",
+      "name": "Codex Auto Review",
+      "vendor": "openai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 272000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-09-09",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/codex-auto-review",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 24.264,
+          "cny": 0.4044,
+          "usd": 0.06
+        },
+        "output_per_1m_tokens": {
+          "credits": 145.584,
+          "cny": 2.4264,
+          "usd": 0.36
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 2.4264,
+          "cny": 0.04044,
+          "usd": 0.006
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        },
+        "output_per_1m_tokens": {
+          "credits": 485.28,
+          "cny": 8.088,
+          "usd": 1.2
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 8.088,
+          "cny": 0.1348,
+          "usd": 0.02
+        },
+        "per_image": {
+          "credits": 80.88,
+          "cny": 1.348,
+          "usd": 0.2
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "dh-avatar",
+      "name": "数字人视频",
+      "vendor": "other",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-07-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/dh-avatar",
+      "price": {
+        "per_video_second": {
+          "credits": 3.6,
+          "cny": 0.06,
+          "usd": 0.008902
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "dh-avatar-create",
+      "name": "创建数字人形象",
+      "vendor": "other",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-07-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/dh-avatar-create",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "seedance2.0-yd",
+      "name": "Seedance 2.0 YD",
+      "vendor": "bytedance",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-10-10",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/seedance2.0-yd",
+      "price": {
+        "per_video_second": {
+          "credits": 118.9728,
+          "cny": 1.98288,
+          "usd": 0.294196
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 148.716,
+          "cny": 2.4786,
+          "usd": 0.367745
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "voice-clone-pro",
+      "name": "声音克隆 · 创建音色",
+      "vendor": "other",
+      "category": "audio",
+      "category_label": "语音 / 音乐",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-07-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/voice-clone-pro",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "voice-tts-pro",
+      "name": "语音合成",
+      "vendor": "other",
+      "category": "audio",
+      "category_label": "语音 / 音乐",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-07-24",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/voice-tts-pro",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "xiaozhanAI",
+      "name": "xiaozhanAI",
+      "vendor": "other",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "Web search",
+        "JSON mode",
+        "Image generation"
+      ],
+      "released_at": "2026-10-11",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/xiaozhanAI",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        },
+        "output_per_1m_tokens": {
+          "credits": 606.6,
+          "cny": 10.11,
+          "usd": 1.5
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 12.132,
+          "cny": 0.2022,
+          "usd": 0.03
+        },
+        "per_image": {
+          "credits": 170.6568,
+          "cny": 2.84428,
+          "usd": 0.422
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "xiaozhanimage",
+      "name": "xiaozhanimage",
+      "vendor": "other",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-10-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/xiaozhanimage",
+      "price": {
+        "per_image": {
+          "credits": 30,
+          "cny": 0.5,
+          "usd": 0.074184
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "happyhorse-1.1-i2v",
+      "name": "快乐马 1.1 图生视频",
+      "vendor": "alibaba",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-25",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/happyhorse-1.1-i2v",
+      "price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "happyhorse-1.1-r2v",
+      "name": "快乐马 1.1 全能参考",
+      "vendor": "alibaba",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-25",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/happyhorse-1.1-r2v",
+      "price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "happyhorse-1.1-t2v",
+      "name": "快乐马 1.1 文生视频",
+      "vendor": "alibaba",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-08-25",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/happyhorse-1.1-t2v",
+      "price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "qwen-image-3.0",
+      "name": "Qwen Image 3.0",
+      "vendor": "alibaba",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-09-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/qwen-image-3.0",
+      "price": {
+        "per_image": {
+          "credits": 10.8,
+          "cny": 0.18,
+          "usd": 0.026706
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "qwen-image-3.0-pro",
+      "name": "Qwen Image 3.0 Pro",
+      "vendor": "alibaba",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2026-09-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/qwen-image-3.0-pro",
+      "price": {
+        "per_image": {
+          "credits": 15,
+          "cny": 0.25,
+          "usd": 0.037092
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "qwen3.8-max-cjx",
+      "name": "Qwen3.8-Max-cjx",
+      "vendor": "alibaba",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-08-03",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/qwen3.8-max-cjx",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 504,
+          "cny": 8.4,
+          "usd": 1.246291
+        },
+        "output_per_1m_tokens": {
+          "credits": 1512,
+          "cny": 25.2,
+          "usd": 3.738872
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 63,
+          "cny": 1.05,
+          "usd": 0.155786
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 720,
+          "cny": 12,
+          "usd": 1.780415
+        },
+        "output_per_1m_tokens": {
+          "credits": 2160,
+          "cny": 36,
+          "usd": 5.341246
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 90,
+          "cny": 1.5,
+          "usd": 0.222552
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "qwen3.8-omni-flash",
+      "name": "Qwen3.8-Omni-Flash",
+      "vendor": "alibaba",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 32768,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Prefix completion"
+      ],
+      "released_at": "2026-09-09",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/qwen3.8-omni-flash",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 48,
+          "cny": 0.8,
+          "usd": 0.118694
+        },
+        "output_per_1m_tokens": {
+          "credits": 162,
+          "cny": 2.7,
+          "usd": 0.400593
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 6,
+          "cny": 0.1,
+          "usd": 0.014837
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "wan3.0-video",
+      "name": "万相 3.0 视频生成",
+      "vendor": "alibaba",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-09-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/wan3.0-video",
+      "price": {
+        "per_video_second": {
+          "credits": 64.8,
+          "cny": 1.08,
+          "usd": 0.160237
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 72,
+          "cny": 1.2,
+          "usd": 0.178042
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "wan3.0-video-prime",
+      "name": "万相 3.0 视频生成 Prime",
+      "vendor": "alibaba",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-09-04",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/wan3.0-video-prime",
+      "price": {
+        "per_video_second": {
+          "credits": 97.2,
+          "cny": 1.62,
+          "usd": 0.240356
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 108,
+          "cny": 1.8,
+          "usd": 0.267062
+        }
+      },
+      "promotion_factor": 0.9
+    },
+    {
+      "id": "tvod-vidu-video-q3",
+      "name": "Vidu Q3",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "tvod-vidu-video-q3-ad",
+      "name": "Vidu Q3 广告版",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3-ad",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "tvod-vidu-video-q3-drama",
+      "name": "Vidu Q3 短剧版",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3-drama",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "tvod-vidu-video-q3-mix",
+      "name": "Vidu Q3 Mix",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": null,
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3-mix",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "tvod-vidu-video-q3-pro",
+      "name": "Vidu Q3 Pro",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3-pro",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "tvod-vidu-video-q3-turbo",
+      "name": "Vidu Q3 Turbo",
+      "vendor": "shengshu",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-06-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/tvod-vidu-video-q3-turbo",
+      "price": {
+        "per_video_second": {
+          "credits": 22.6464,
+          "cny": 0.37744,
+          "usd": 0.056
+        }
+      },
+      "list_price": {
+        "per_video_second": {
+          "credits": 28.308,
+          "cny": 0.4718,
+          "usd": 0.07
+        }
+      },
+      "promotion_factor": 0.8
+    },
+    {
+      "id": "suno-v6",
+      "name": "Suno V6 (最新)",
+      "vendor": "suno",
+      "category": "audio",
+      "category_label": "语音 / 音乐",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-11-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/suno-v6",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "suno-v6-mini",
+      "name": "Suno V6 Mini",
+      "vendor": "suno",
+      "category": "audio",
+      "category_label": "语音 / 音乐",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-11-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/suno-v6-mini",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "suno-v6-wild",
+      "name": "Suno V6 Wild",
+      "vendor": "suno",
+      "category": "audio",
+      "category_label": "语音 / 音乐",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2026-11-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/suno-v6-wild",
+      "price": {},
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "grok-4.5",
+      "name": "Grok 4.5",
+      "vendor": "xai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 500000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Video input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-07-09",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-4.5",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 727.92,
+          "cny": 12.132,
+          "usd": 1.8
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 36.396,
+          "cny": 0.6066,
+          "usd": 0.09
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 121.32,
+          "cny": 2.022,
+          "usd": 0.3
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "vendor": "xai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 500000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Video input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-08-12",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-4.6",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 727.92,
+          "cny": 12.132,
+          "usd": 1.8
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "vendor": "xai",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 500000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Video input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode"
+      ],
+      "released_at": "2026-09-21",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-4.7",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 242.64,
+          "cny": 4.044,
+          "usd": 0.6
+        },
+        "output_per_1m_tokens": {
+          "credits": 727.92,
+          "cny": 12.132,
+          "usd": 1.8
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 60.66,
+          "cny": 1.011,
+          "usd": 0.15
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 808.8,
+          "cny": 13.48,
+          "usd": 2
+        },
+        "output_per_1m_tokens": {
+          "credits": 2426.4,
+          "cny": 40.44,
+          "usd": 6
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 202.2,
+          "cny": 3.37,
+          "usd": 0.5
+        }
+      },
+      "promotion_factor": 0.3
+    },
+    {
+      "id": "grok-imagine-image",
+      "name": "Grok Imagine (Image)",
+      "vendor": "xai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2025-01-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-imagine-image",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "grok-imagine-image-quality",
+      "name": "Grok Imagine (Image · Quality)",
+      "vendor": "xai",
+      "category": "image",
+      "category_label": "图像生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [
+        "Image generation"
+      ],
+      "released_at": "2025-01-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-imagine-image-quality",
+      "price": {
+        "per_image": {
+          "credits": 18,
+          "cny": 0.3,
+          "usd": 0.04451
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "grok-imagine-video",
+      "name": "Grok Imagine Video",
+      "vendor": "xai",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2025-01-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-imagine-video",
+      "price": {
+        "per_video_second": {
+          "credits": 6,
+          "cny": 0.1,
+          "usd": 0.014837
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "grok-imagine-video-1.5-preview",
+      "name": "Grok Imagine Video 1.5",
+      "vendor": "xai",
+      "category": "video",
+      "category_label": "视频生成",
+      "context_window": null,
+      "max_output_tokens": 0,
+      "capabilities": [],
+      "released_at": "2025-01-01",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/grok-imagine-video-1.5-preview",
+      "price": {
+        "per_video_second": {
+          "credits": 6,
+          "cny": 0.1,
+          "usd": 0.014837
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "vendor": "zhipu",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 32768,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-08-23",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/glm-5.3",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 336,
+          "cny": 5.6,
+          "usd": 0.830861
+        },
+        "output_per_1m_tokens": {
+          "credits": 1176,
+          "cny": 19.6,
+          "usd": 2.908012
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 84,
+          "cny": 1.4,
+          "usd": 0.207715
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 480,
+          "cny": 8,
+          "usd": 1.186944
+        },
+        "output_per_1m_tokens": {
+          "credits": 1680,
+          "cny": 28,
+          "usd": 4.154303
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "glm-5.3-1022",
+      "name": "GLM-5.3-1022",
+      "vendor": "zhipu",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-08-23",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/glm-5.3-1022",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 480,
+          "cny": 8,
+          "usd": 1.186944
+        },
+        "output_per_1m_tokens": {
+          "credits": 1680,
+          "cny": 28,
+          "usd": 4.154303
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 120,
+          "cny": 2,
+          "usd": 0.296736
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "vendor": "zhipu",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-08-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/glm-5.3-flash",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 33.6,
+          "cny": 0.56,
+          "usd": 0.083086
+        },
+        "output_per_1m_tokens": {
+          "credits": 117.6,
+          "cny": 1.96,
+          "usd": 0.290801
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 9.66,
+          "cny": 0.161,
+          "usd": 0.023887
+        }
+      },
+      "list_price": {
+        "input_per_1m_tokens": {
+          "credits": 48,
+          "cny": 0.8,
+          "usd": 0.118694
+        },
+        "output_per_1m_tokens": {
+          "credits": 168,
+          "cny": 2.8,
+          "usd": 0.41543
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 13.8,
+          "cny": 0.23,
+          "usd": 0.034125
+        }
+      },
+      "promotion_factor": 0.7
+    },
+    {
+      "id": "glm-5.3-flash-1022",
+      "name": "GLM-5.3-Flash-1022",
+      "vendor": "zhipu",
+      "category": "text",
+      "category_label": "文本对话",
+      "context_window": 1000000,
+      "max_output_tokens": 131072,
+      "capabilities": [
+        "Image input",
+        "Tool calling",
+        "Thinking mode",
+        "JSON mode",
+        "Open weights"
+      ],
+      "released_at": "2026-08-26",
+      "updated_at": "2026-11-14T20:23:37Z",
+      "url": "https://model.dflop.top/models/glm-5.3-flash-1022",
+      "price": {
+        "input_per_1m_tokens": {
+          "credits": 48,
+          "cny": 0.8,
+          "usd": 0.118694
+        },
+        "output_per_1m_tokens": {
+          "credits": 168,
+          "cny": 2.8,
+          "usd": 0.41543
+        },
+        "cached_input_per_1m_tokens": {
+          "credits": 13.8,
+          "cny": 0.23,
+          "usd": 0.034125
+        }
+      },
+      "list_price": null,
+      "promotion_factor": null
+    }
+  ]
+}
