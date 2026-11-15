@@ -1,0 +1,46 @@
+name: Sync model catalogue
+
+# Once a day, copy https://model.dflop.top/data/models.{json,csv} into data/ and commit
+# only when something changed. "Run workflow" on the Actions tab runs it by hand.
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download
+        run: |
+          set -euo pipefail
+          ua="xiaozhan-aihub-models-sync (+https://github.com/${GITHUB_REPOSITORY})"
+          for f in models.json models.csv; do
+            curl -fsSL --retry 3 --retry-delay 15 --max-time 60 -A "$ua" -o "/tmp/$f" "https://model.dflop.top/data/$f"
+          done
+          python3 scripts/check.py /tmp/models.json /tmp/models.csv
+          mkdir -p data
+          mv /tmp/models.json /tmp/models.csv data/
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git add data
+          if git diff --cached --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: model catalogue $(date -u +%Y-%m-%d)"
+          git push
