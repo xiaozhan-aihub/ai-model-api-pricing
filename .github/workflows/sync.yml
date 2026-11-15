@@ -1,13 +1,19 @@
 name: Sync model catalogue
 
-# Once a day, copy https://model.dflop.top/data/models.{json,csv} into data/ and commit
-# only when something changed, then mirror data/ to the Hugging Face dataset
-# xiaozhan-aihub/models when the HF_TOKEN secret is set. "Run workflow" on the Actions
-# tab runs it by hand.
+# Once a day: copy https://model.dflop.top/data/models.{json,csv} into data/, re-render the
+# pages (README.md, pricing/, vendors/) with scripts/render.py, commit only when something
+# changed, then mirror data/ and the dataset card to the Hugging Face dataset
+# xiaozhan-aihub/ai-model-api-pricing when the HF_TOKEN secret is set.
+# Also runs when scripts/ or this file change, and by hand from the Actions tab.
 on:
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/sync.yml"
 
 permissions:
   contents: write
@@ -35,11 +41,26 @@ jobs:
           python3 scripts/check.py /tmp/models.json /tmp/models.csv
           mkdir -p data
           mv /tmp/models.json /tmp/models.csv data/
+          # Descriptions and image / video parameters for the pages. Optional: without it the
+          # data still syncs and the pages wait for the next run.
+          curl -fsSL --retry 3 --retry-delay 15 --max-time 60 -A "$ua" -o /tmp/catalog.json \
+            "https://api.dflop.top/api/v1/models/public" || rm -f /tmp/catalog.json
+
+      - name: Render pages
+        run: |
+          set -euo pipefail
+          if [ -s /tmp/catalog.json ]; then
+            python3 scripts/render.py --catalog /tmp/catalog.json
+          else
+            echo "::warning::model catalogue unavailable: pages not re-rendered"
+          fi
 
       - name: Commit if changed
         run: |
           set -euo pipefail
-          git add data
+          git add data README.md
+          [ -d pricing ] && git add pricing
+          [ -d vendors ] && git add vendors
           if git diff --cached --quiet; then
             echo "No change."
             exit 0
