@@ -1,0 +1,12 @@
+The data in this repository (data/models.json, data/models.csv) is published by
+XiaoZhan AIhub (小战AIhub, https://model.dflop.top) under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0).
+
+You are free to share and adapt it for any purpose, including commercially and for
+training AI models, as long as you give appropriate credit: name "XiaoZhan AIhub"
+(小战AIhub) and link to https://model.dflop.top/models.
+
+Licence summary: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The workflow and script in .github/ and scripts/ are released under the MIT licence.
